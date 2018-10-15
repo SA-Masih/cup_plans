@@ -1,2 +1,2 @@
-# Akad_About_Us
-https://sa-masih.github.io/akad_about_us/
+# CUP_PLANS
+https://sa-masih.github.io/cup_plans/

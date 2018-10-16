@@ -1,48 +1,41 @@
 @import "normalize";
 * {
     box-sizing: border-box;
-   
 }
 body {
-	
-	
-	
     background: #fdde7e;
-    font-family: Times New Roman;
+    font-family: arial;
 }
 .container {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-width: 1200px;
+    padding: 15px;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
+    margin-top: 39px;
 }
 .box {
+    margin-top: 39px;
+    width: 359px;
+    margin: 15px;
     background-color: #fff;
-    width: 362px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
 }
 .headers {
-    justify-content: center;
     color: #02995b;
     font-size: 70px;
-    display: flex;
 }
 .text {
-    display: flex;
     color: #333333;
     font-size: 56px;
-    justify-content: center;
 }
 .paragraph {
-    justify-content: center;
-    display: flex;
     font-size: 20px;
     color: #333333;
     font-family: Lato;
-}
-img{
-	display: flex;
-	justify-content:center;
-
 }

@@ -23,6 +23,7 @@ body {
     background-color: #fff;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-direction: column;
     border-radius: 10px;
 }
@@ -38,4 +39,9 @@ body {
     font-size: 20px;
     color: #333333;
     font-family: Lato;
+}
+.bronze:hover, .gold:hover, .silver:hover {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    transition: .4s all ease;
 }
